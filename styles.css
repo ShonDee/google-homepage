@@ -1,0 +1,75 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 160px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 25px 20px 0px 20px;
+    text-decoration: none;
+    font-size: 9.5pt;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+}
+.search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.search input {
+    width: 580px;
+    height: 42px;
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    margin-top: 28px;
+}
+.search input { 
+    text-indent: 40px;
+}
+.search .fa-search { 
+    position: relative;
+    top: 42px;
+    left: 30px;
+}
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    padding: 10px 16px 10px 16px;
+    margin: 30px 12px 0px 0px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 10.5pt;
+    color: #404040;
+}
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    margin: 40px;
+}

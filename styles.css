@@ -1,24 +1,20 @@
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 160px;
-}
+/* Website Body */
 body {
     margin: 0;
     padding: 0;
 }
-ul {
+/* Top Navigation of the Website */
+.topNavigation {
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
 }
-li {
+.topNavigation li {
     display: inline;
     float: left;
 }
-li a {
+.topNavigation li a {
     display: block;
     text-align: center;
     padding: 25px 20px 0px 20px;
@@ -28,6 +24,14 @@ li a {
     font-family: Arial, Helvetica, sans-serif;
     color: #505050;
 }
+/* Google Logo */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 160px;
+}
+/* Google Searchbar */
 .search {
     position: relative;
     color: #aaa;
@@ -51,6 +55,7 @@ li a {
     top: 42px;
     left: 30px;
 }
+/* Google Search and Im Feeling Lucky Buttons */
 .buttons {
     position: relative;
     display: flex;
@@ -64,12 +69,30 @@ li a {
     font-size: 10.5pt;
     color: #404040;
 }
+/* Bottom Navigation of the Website */
 footer {
-    overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #F0F0F0;
 }
-footer ul li {
-    margin: 40px;
+.bottomNavigation {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.bottomNavigation li {
+    display: inline;
+    float: left;
+}
+.bottomNavigation li a {
+    display: block;
+    text-align: center;
+    padding: 13px 0px 13px 30px;
+    text-decoration: none;
+    font-size: 10.4pt;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
 }
